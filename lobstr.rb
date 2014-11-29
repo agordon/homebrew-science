@@ -34,7 +34,7 @@ class Lobstr < Formula
       system "#{bin}/lobSTR",
                "--verbose",
                "--index-prefix", "#{share}/lobSTR/test-ref/lobSTR_",
-               "--fastq", "-f", "#{share}/sample/tiny.fq",
+               "--fastq", "-f", "#{share}/lobSTR/sample/tiny.fq",
                "--rg-sample", "test",
                "--rg-lib", "test",
                "--out", "./test"
